@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  footer a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 768px) {
+  header h1 {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  header a {
+    display: block;
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1024px) {
+  .peliculas {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
+@media (max-width: 768px) {
+  .peliculas {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 480px) {
+  .peliculas {
+    grid-template-columns: 1fr; 
+  }
+  }
